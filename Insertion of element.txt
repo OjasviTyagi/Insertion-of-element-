@@ -1,0 +1,14 @@
+# method to insert element
+def insert(arr, element):
+    arr.append(element)
+ 
+# declaring array and number to insert in the array
+arr = [12, 16, 20, 40, 50, 70]
+num= 26,32,9876
+  
+# array before inserting an element
+print ("Array Before Inserting an Element : ",arr)
+  
+# array after Inserting element
+insert(arr, num)
+print("\n Array After Inserting an Element : ",arr)
